@@ -1,6 +1,9 @@
 import pandas as pd
 import pymssql
 
+# 生成.exe文件
+# pyinstaller -p venv\Lib\site-packages -F <文件>
+
 def translate(value:str):
     # if (value.index('&') == -1):
     if (value.find('&') == -1):
